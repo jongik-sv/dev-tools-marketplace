@@ -1,16 +1,20 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "dev-tools",
+  "description": "WBS 기반 TDD 개발 자동화 플러그인 모음",
   "owner": {
     "name": "svisor"
   },
   "plugins": [
     {
       "name": "dev",
+      "description": "WBS 기반 TDD 개발 자동화 플러그인 (설계→TDD구현→테스트→리팩토링, 팀 병렬 개발)",
       "source": {
         "source": "url",
-        "url": "https://github.com/jongik-sv/dev-plugin.git"
+        "url": "https://github.com/jongik-sv/dev-plugin.git",
+        "sha": "380a4214940c5796bb72c32703bd3a1336a2b814"
       },
-      "description": "WBS 기반 TDD 개발 자동화 플러그인 (설계→TDD구현→테스트→리팩토링, 팀 병렬 개발)"
+      "homepage": "https://github.com/jongik-sv/dev-plugin"
     }
   ]
 }
